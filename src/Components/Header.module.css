@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #48C5C9, #4581E5);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* Adicionado: */
+    -webkit-text-fill-color: transparent;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+}
+.item{
+    list-style: none;
+}
+.item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #001C4C;
+    font-weight: 500;
+    font-family:  'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+.item a:hover{
+    color: #F37678;
+}
