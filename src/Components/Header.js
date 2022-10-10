@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./Header.module.css";
+import style from "./Header.module.scss";
 
 
 const Header = () => {
@@ -26,7 +26,7 @@ const Header = () => {
               <li className={style.item}><a href=''>Conhecimentos</a></li>
             </ul>
           </nav>
-              <div onClick={handleClick} className={`${style.toggle} ${active}`}></div>
+          <div onClick={handleClick} className={`${style.toggle} ${active}`}></div>
         </div>
       </div>
     </>

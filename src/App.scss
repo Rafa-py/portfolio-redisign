@@ -1,8 +1,10 @@
+@import "/src/Variables.scss";
+
 .container{
   max-width: 1440px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 120px;
+  padding: 30px 120px;
 }
 
 @media(max-width: 800px){
@@ -28,3 +30,4 @@
       padding: 0 30px;
   }
 }
+

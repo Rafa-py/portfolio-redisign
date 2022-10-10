@@ -1,0 +1,53 @@
+@import "/src/Variables.scss";
+
+.box{
+    display: flex;
+    padding-top: 50px;
+    &_Img{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: -6%;
+        .img{
+            width: 260px;
+        }
+        .btns{
+            Button{
+                margin: 20px 20px 0 0;
+            }
+        }
+    }
+    &_Text{
+        width: 50%;
+        p{
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        span{
+            color: $salmon;
+        }
+    }
+}
+
+@media(max-width: 950px){
+    .box{
+        flex-direction: column;
+        &_Img{
+            width: 100%;
+        }
+        &_Text{
+            width: 100%;
+            margin-top: 30px;
+        }
+    }
+}
+
+@media(max-width: 350px){
+    .btns{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

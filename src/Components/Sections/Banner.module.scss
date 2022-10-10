@@ -1,0 +1,29 @@
+@import "/src/Variables.scss";
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    .hello{
+        font-family:  'Poppins', sans-serif;
+        font-size: 30px;
+        color: $green;
+        margin-top: -120px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    
+    .hello span{
+        color: $salmon;
+    }
+    
+    .slogan{
+        color: #001C4C;
+        font-family: $merri;
+        font-size: 36px;
+        font-weight: 500;
+        text-align: center;
+    }
+}
