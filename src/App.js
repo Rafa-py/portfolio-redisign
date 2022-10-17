@@ -3,9 +3,9 @@ import "./Reset.scss";
 import "./Variables.scss";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import { UserStorage } from './UserContext';
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
-import Home from "./Components/Home";
+import Header from "./Components/Sections/Header";
+import Footer from "./Components/Sections/Footer";
+import Home from "./Components//Sections/Home";
 
 
 function App() {

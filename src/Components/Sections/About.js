@@ -2,11 +2,11 @@ import React from 'react'
 import Button from '../Button';
 import Title from "../Title";
 import style from "./About.module.scss";
-import photo from "../../Img/profile.jpg";
+import photo from "../../Assets/profile.jpg";
 
 const About = () => {
   return (
-    <div className='container'>
+    <div className={`container ${style.about}`}>
       <Title title="Sobre Mim"/>
       <div className={style.box}>
         <div className={style.box_Img}>
