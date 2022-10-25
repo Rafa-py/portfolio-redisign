@@ -4,7 +4,7 @@ import "../Variables.scss";
 
 const Title = ({title}) => {
   return (
-    <h3 className={style.title}>{title}</h3>
+    <h3 className={style.title} >{title}</h3>
   )
 }
 

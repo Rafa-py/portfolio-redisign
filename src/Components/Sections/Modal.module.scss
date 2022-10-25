@@ -1,0 +1,68 @@
+@import "/src/Variables.scss";
+
+.modal{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    z-index: 1000;
+    padding: 2rem calc(4rem + 15px) 2rem 4rem; /*Calc para contabilizar o tamanho da barra de scroll*/
+    transform: scale(.8);
+    animation: scaleUp .3s forwards;
+    .container{
+        background: white;
+        border-radius: 8px;
+        height: 600px;
+        .name{
+            text-align: center;
+            font-size: 24px;
+            color: $salmon;
+            text-transform: uppercase;
+            font-weight: 550;
+            margin-top: 50px;
+        }
+        .flex{
+            display: flex;
+            margin-top: 2rem;
+            .photo{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 50%;
+                .img{
+                    width: 98%;
+                    transition: .2s;
+                    &:hover, 
+                    &:active{
+                        width: 100%;
+                    }
+                }
+                .btns{
+                    width: 60%;
+                    display: flex;
+                    justify-content: space-around;
+                    margin-top: 25px;
+                }
+            }
+            .text{
+                width: 50%;
+            }
+        }
+    }
+}
+
+@keyframes scaleUp{
+    to{
+        opacity: initial;
+        transform: initial;
+    }
+}
+
+@media(max-width: 40rem){
+    .modal{
+        padding: 2rem calc(2rem + 15px) 2rem 2rem;
+    }
+}
