@@ -5,12 +5,14 @@ import photoDog from "./dogs.jpg";
 import photoKislev from "./kislev.jpg";
 import styles from "./ProjectsData.module.scss";
 import Modal from '../Components/Sections/Modal';
+import ModalAll from '../Components/Sections/ModalAll';
 
 
 const ProjectsData = ({...props}) => {
     let [over, setOver] = React.useState(null);
     let [modal, setModal] = React.useState(null);
     let [btnData,setBtnData] = React.useState(null);
+    let [modalAll,setModalAll] = React.useState(null);
     
     React.useEffect(()=>{
         if(props.overview){
@@ -21,11 +23,11 @@ const ProjectsData = ({...props}) => {
     });
 
     let handleClick = (target) =>{
-        setModal(true)
         if(target == "all"){
-            setBtnData(data);
+            setModalAll(data);
         }else{
             setBtnData(target)
+            setModal(true)
         }
     }
 
@@ -50,7 +52,8 @@ const ProjectsData = ({...props}) => {
 
   return (
     <div className={styles.projects}>
-        {modal && <Modal data={btnData} setModal={setModal} />}
+        {modal && <Modal data={btnData} setModal={setModal} setModalAll={setModalAll} />}
+        {modalAll && <ModalAll data={data} setModal={setModal} setModalAll={setModalAll} setBtnData={setBtnData} />}
         {data.map((item)=>(
             <div className={styles.box}>
                 <div className={styles.boxText}>

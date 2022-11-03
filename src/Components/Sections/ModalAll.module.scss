@@ -1,0 +1,39 @@
+.modal{
+    position: fixed;
+    width: 100vw;
+    height: 200vh;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    z-index: 1000;
+    padding: 2rem calc(4rem + 15px) 2rem 4rem; /*Calc para contabilizar o tamanho da barra de scroll*/
+    transform: scale(.8);
+    animation: scaleUp .3s forwards;
+    overflow-y: scroll;
+    .container{
+        background: white;
+        border-radius: 8px;
+        height: 130%;
+        padding: 10px 80px;
+    }
+}
+
+@keyframes scaleUp{
+    to{
+        opacity: initial;
+        transform: initial;
+    }
+}
+
+@media(max-width: 40rem){
+    .modal{
+        padding: 2rem calc(2rem + 15px) 2rem 2rem;
+        .container{
+            padding: 10px 30px;   
+            img{
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
