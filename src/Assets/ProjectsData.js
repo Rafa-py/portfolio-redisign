@@ -55,7 +55,7 @@ const ProjectsData = ({...props}) => {
         {modal && <Modal data={btnData} setModal={setModal} setModalAll={setModalAll} />}
         {modalAll && <ModalAll data={data} setModal={setModal} setModalAll={setModalAll} setBtnData={setBtnData} />}
         {data.map((item)=>(
-            <div className={styles.box}>
+            <div className={styles.box} key={item.name}>
                 <div className={styles.boxText}>
                     <h4>{item.name}</h4>
                     <p>{item.shortDescription}</p>

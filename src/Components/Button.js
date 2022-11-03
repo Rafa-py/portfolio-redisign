@@ -27,8 +27,6 @@ const Button = ({children,value, onClick, logo, href, ...props}) => {
         break;
     };
 
-    console.log(imgLogo)
-
     if(props.color == "dark"){
       setBtnColor("#001C4C");
     }else if(props.color == "light"){
