@@ -6,16 +6,21 @@ import { UserStorage } from './UserContext';
 import Header from "./Components/Sections/Header";
 import Footer from "./Components/Sections/Footer";
 import Home from "./Components//Sections/Home";
+import Button from './Components/Button';
 
 
 function App() {
   return (
     <div>
-      <UserStorage>
-        <Header />
-        <Home />
-        <Footer />
-      </UserStorage>
+      <BrowserRouter>
+        <UserStorage>
+          <Header />
+          <Routes>
+            <Route path="/" element={<Home />}/>
+          </Routes>
+          <Footer />
+        </UserStorage>
+      </BrowserRouter>
     </div>
   );
 }

@@ -35,7 +35,7 @@ const Knowledge = () => {
   }
   return (
     <div className='container'>
-      <Title title="Conhecimentos"/>
+      <Title title="Conhecimentos" id="3"/>
       <div className={styles.boxKnowledge}>
         <div className={styles.text}>
           {text && <p>{text}</p>}

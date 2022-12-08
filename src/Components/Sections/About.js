@@ -13,7 +13,7 @@ const About = () => {
             <img className={style.img} src={photo}/>
             <div className={style.btns}>
                 <Button color="dark" url="www.google.com.br">Linkedin</Button>
-                <Button color="light" download>Currículo</Button>
+                <Button color="light" url="www.google.com.br" download>Currículo</Button>
             </div>
         </div>
         <div className={style.box_Text}>

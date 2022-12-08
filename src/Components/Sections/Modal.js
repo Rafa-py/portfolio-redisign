@@ -1,5 +1,4 @@
 import React from 'react';
-import Title from "../Title";
 import Button from "../Button";
 import styles from "./Modal.module.scss";
 

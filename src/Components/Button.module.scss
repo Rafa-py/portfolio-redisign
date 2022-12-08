@@ -18,7 +18,12 @@
         color: white;
     }
 }
-
+@media(max-width: 460px){
+    .btn{
+        margin-bottom: 10px;
+        max-width: 130px;
+    }
+}
 .btn:hover,
 .btn:active{
     outline: none;
