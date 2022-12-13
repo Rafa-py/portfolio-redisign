@@ -1,5 +1,6 @@
 import React from 'react';
 import style from "./Header.module.scss";
+import { Link } from 'react-scroll';
 
 
 const Header = () => {
@@ -21,9 +22,24 @@ const Header = () => {
           <h2 className={style.logo}><a href=''>Rafa</a></h2>
           <nav className={`${style.nav} ${nav}`}>
             <ul className={style.menu}>
-              <li className={style.item}><a href='#1'>Sobre Mim</a></li>
-              <li className={style.item}><a href='#2'>Projetos</a></li>
-              <li className={style.item}><a href='#3'>Conhecimentos</a></li>
+              <li className={style.item}><Link className={style.link} to='about' 
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  >Sobre Mim</Link></li>
+              <li className={style.item}><Link className={style.link} to='projects'
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  >Projetos</Link></li>
+              <li className={style.item}><Link className={style.link} to='knowledge'
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
+                  >Conhecimentos</Link></li>
             </ul>
           </nav>
           <div onClick={handleClick} className={`${style.toggle} ${active}`}></div>

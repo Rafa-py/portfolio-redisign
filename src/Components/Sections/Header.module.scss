@@ -24,6 +24,9 @@
         }
         .item{
             list-style: none;
+            .link{
+                cursor: pointer;
+            }
         }
         .item a{
             text-decoration: none;

@@ -7,13 +7,13 @@ import photo from "../../Assets/profile.jpg";
 const About = () => {
   return (
     <div className={`container ${style.about}`}>
-      <Title title="Sobre Mim"/>
-      <div className={style.box}>
+      <Title title="Sobre Mim" />
+      <div className={style.box}id="about">
         <div className={style.box_Img}>
             <img className={style.img} src={photo}/>
             <div className={style.btns}>
-                <Button color="dark" url="www.google.com.br">Linkedin</Button>
-                <Button color="light" url="www.google.com.br" download>Currículo</Button>
+                <Button color="dark" url="//www.google.com.br">Linkedin</Button>
+                <Button color="light" url="//www.google.com.br" download>Currículo</Button>
             </div>
         </div>
         <div className={style.box_Text}>

@@ -1,6 +1,6 @@
 import React, { Children } from 'react';
 import style from "./Button.module.scss";
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {UserContext} from '../UserContext';
 import gitIcon from "../Assets/git-icon.png";
 import figmaIcon from "../Assets/figma-icon.png";
@@ -12,7 +12,7 @@ const Button = ({children,value, onClick, logo, url, ...props}) => {
   let [btnColor, setBtnColor] = React.useState("#4581E5");
   let [download, setDownload] = React.useState(false);
   let [imgLogo, setImgLogo] = React.useState(null);
-
+  
   React.useEffect(()=>{
 
     switch(logo){
@@ -41,7 +41,7 @@ const Button = ({children,value, onClick, logo, url, ...props}) => {
   return (
     <button onClick={onClick} className={style.btn} style={{background: btnColor}}>
       {imgLogo && <img src={imgLogo}/>}
-      {url && <NavLink to={url}>{children}</NavLink>}
+      {url && <Link to={url}>{children}</Link>}
     </button>
   )
 }

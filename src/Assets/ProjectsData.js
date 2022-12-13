@@ -39,9 +39,9 @@ const ProjectsData = ({...props}) => {
             largeDescription: "Ainda vou fazer",
             photo: photoDog,
             links: {
-                figma: "#",
-                git: "https://github.com/Rafa-py/dogs",
-                site: "#"
+                figma: "//#",
+                git: "//github.com/Rafa-py/dogs",
+                site: "//#"
             }
          },
           {
@@ -51,9 +51,9 @@ const ProjectsData = ({...props}) => {
             largeDescription: "Ainda vou fazer",
             photo: photoKislev,
             links: {
-                figma: "https://www.figma.com/file/6kw87sdKXTbcHZjnXY0tM6/Kislev-Barbearia?node-id=122%3A331&t=AzNldGlkcaC0siij-1",
-                git: "https://github.com/Rafa-py/Kislev",
-                site: "https://rafa-py.github.io/Kislev/"
+                figma: "//www.figma.com/file/6kw87sdKXTbcHZjnXY0tM6/Kislev-Barbearia?node-id=122%3A331&t=AzNldGlkcaC0siij-1",
+                git: "//github.com/Rafa-py/Kislev",
+                site: "//rafa-py.github.io/Kislev/"
             }
          },
          {
@@ -63,9 +63,9 @@ const ProjectsData = ({...props}) => {
             largeDescription: "Ainda vou fazer",
             photo: photoKislev,
             links: {
-                figma: "https://www.figma.com/file/6kw87sdKXTbcHZjnXY0tM6/Kislev-Barbearia?node-id=122%3A331&t=AzNldGlkcaC0siij-1",
-                git: "https://github.com/Rafa-py/Kislev",
-                site: "https://rafa-py.github.io/Kislev/"
+                figma: "//www.figma.com/file/6kw87sdKXTbcHZjnXY0tM6/Kislev-Barbearia?node-id=122%3A331&t=AzNldGlkcaC0siij-1",
+                git: "//github.com/Rafa-py/Kislev",
+                site: "//rafa-py.github.io/Kislev/"
             }
          },
          {
@@ -75,9 +75,9 @@ const ProjectsData = ({...props}) => {
             largeDescription: "Ainda vou fazer",
             photo: photoKislev,
             links: {
-                figma: "https://www.figma.com/file/6kw87sdKXTbcHZjnXY0tM6/Kislev-Barbearia?node-id=122%3A331&t=AzNldGlkcaC0siij-1",
-                git: "https://github.com/Rafa-py/Kislev",
-                site: "https://rafa-py.github.io/Kislev/"
+                figma: "//www.figma.com/file/6kw87sdKXTbcHZjnXY0tM6/Kislev-Barbearia?node-id=122%3A331&t=AzNldGlkcaC0siij-1",
+                git: "//github.com/Rafa-py/Kislev",
+                site: "//rafa-py.github.io/Kislev/"
             }
          }
         ]
@@ -99,7 +99,7 @@ const ProjectsData = ({...props}) => {
                 <div className='boxPhoto'>
                     <img src={btnData.photo} className="photoModal"/>  
                     <div className='btnBox'>
-                        <Button  url={btnData.links.git} color="grey" logo="git">Github</Button>
+                        <Button minhaMae="É linda"  url={btnData.links.git} color="grey" logo="git">Github</Button>
                         <Button url={btnData.links.figma} color="grey" logo="figma">Figma</Button>
                         <Button  url={btnData.links.site} color="grey" logo="site">Site</Button>     
                     </div>

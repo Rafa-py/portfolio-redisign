@@ -4,8 +4,8 @@ import ProjectsData from '../../Assets/ProjectsData';
 
 const Projects = () => {
   return (
-    <div className={`container`}>
-      <Title title="Projetos"/>
+    <div className={`container`} id="projects">
+      <Title title="Projetos" />
       <ProjectsData overview/>  
     </div>
   )

@@ -34,8 +34,8 @@ const Knowledge = () => {
     photo.style.fill = "#F7F7F7";
   }
   return (
-    <div className='container'>
-      <Title title="Conhecimentos" id="3"/>
+    <div className='container' id="knowledge">
+      <Title title="Conhecimentos" />
       <div className={styles.boxKnowledge}>
         <div className={styles.text}>
           {text && <p>{text}</p>}
