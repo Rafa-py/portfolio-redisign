@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../Components/Button';
 import { UserStorage } from '../UserContext';
+import { useNavigate } from 'react-router-dom';
 import photoDog from "./dogs.jpg";
 import photoKislev from "./kislev.jpg";
 import styles from "./ProjectsData.module.scss";
@@ -11,8 +12,9 @@ const ProjectsData = ({...props}) => {
     let [over, setOver] = React.useState(null);
     let [modal, setModal] = React.useState(false);
     let [btnData,setBtnData] = React.useState(null);
+    let [link,setLink] = React.useState([]);
     let [modalAll,setModalAll] = React.useState(null);
-
+    let navigate = useNavigate();
     
     React.useEffect(()=>{
         if(props.overview){
@@ -25,6 +27,7 @@ const ProjectsData = ({...props}) => {
     let handleClick = (target) =>{
         if(target == "all"){
             setModalAll(data);
+            navigate("/ver-todos")
         }else{
             setBtnData(target)
             setModal(true)
@@ -39,9 +42,9 @@ const ProjectsData = ({...props}) => {
             largeDescription: "Ainda vou fazer",
             photo: photoDog,
             links: {
-                figma: "//#",
-                git: "//github.com/Rafa-py/dogs",
-                site: "//#"
+                figma: false,
+                git: "//www.github.com/Rafa-py/dogs",
+                site: false
             }
          },
           {
@@ -52,8 +55,8 @@ const ProjectsData = ({...props}) => {
             photo: photoKislev,
             links: {
                 figma: "//www.figma.com/file/6kw87sdKXTbcHZjnXY0tM6/Kislev-Barbearia?node-id=122%3A331&t=AzNldGlkcaC0siij-1",
-                git: "//github.com/Rafa-py/Kislev",
-                site: "//rafa-py.github.io/Kislev/"
+                git: "//www.github.com/Rafa-py/Kislev",
+                site: "//www.rafa-py.github.io/Kislev/"
             }
          },
          {
@@ -101,7 +104,8 @@ const ProjectsData = ({...props}) => {
                     <div className='btnBox'>
                         <Button minhaMae="É linda"  url={btnData.links.git} color="grey" logo="git">Github</Button>
                         <Button url={btnData.links.figma} color="grey" logo="figma">Figma</Button>
-                        <Button  url={btnData.links.site} color="grey" logo="site">Site</Button>     
+                        <Button  url={btnData.links.site} color="grey" logo="site">Site</Button> 
+
                     </div>
                 </div> 
                 <div className='boxDescription'>

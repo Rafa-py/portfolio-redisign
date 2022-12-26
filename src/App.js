@@ -6,6 +6,7 @@ import { UserStorage } from './UserContext';
 import Header from "./Components/Sections/Header";
 import Footer from "./Components/Sections/Footer";
 import Home from "./Components//Sections/Home";
+import AllProjects from "./Components//Sections/AllProjects";
 import Button from './Components/Button';
 
 
@@ -17,6 +18,7 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />}/>
+            <Route path="/ver-todos" element={<AllProjects />}/>
           </Routes>
           <Footer />
         </UserStorage>

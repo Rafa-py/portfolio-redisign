@@ -27,3 +27,16 @@
         text-align: center;
     }
 }
+
+@media(max-width: 500px){
+    .banner{
+        .hello{
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .slogan{
+            font-size: 30px;
+        }
+    }
+}

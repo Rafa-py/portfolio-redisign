@@ -46,8 +46,8 @@
         background-color: $light-blue;
         position: absolute;
         right: 35px;
-        top: 58px;
         transform: rotateX(90deg);
+        top: 58px;
         cursor: pointer;
         transition: .5s ease-in-out;
     }
@@ -74,6 +74,10 @@
 
 /*Mobile Styles*/
 @media(max-width: 820px){
+ .header{
+    .logo{
+        margin-top: 30px;
+    }
     .nav{
         position: absolute;
         top: 0;
@@ -92,6 +96,9 @@
             height: 60%;
             padding: 47px 0 0 0;
         }
+        .item a{
+            color: white;
+        }
     }
     .nav.showNav{
         transform: rotateX(0);
@@ -99,7 +106,7 @@
         transition: .5s ease-in-out;
     }
     .toggle{
-        transform: rotateX(0);
+        transform: rotateX(0deg);
     }
     .toggle.active{
         background-color: $salmon;
@@ -121,5 +128,12 @@
     }
     .item a{
         color: white;
+    }
+ }
+};
+
+@media(max-width: 400px){
+    .header{
+        margin-bottom: 50px;
     }
 }
