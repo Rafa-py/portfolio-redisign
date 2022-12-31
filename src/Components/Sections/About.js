@@ -3,8 +3,12 @@ import Button from '../Button';
 import Title from "../Title";
 import style from "./About.module.scss";
 import photo from "../../Assets/profile.jpg";
+import curriculo from "/home/rafa/porfolio/src/Assets/Rafael da Silva Pinto - Curriculo.pdf";
 
 const About = () => {
+  let handleClick = ()=>{
+    window.open(curriculo, '_blank');
+  }
   return (
     <div className={`container ${style.about}`}>
       <Title title="Sobre Mim" />
@@ -12,8 +16,8 @@ const About = () => {
         <div className={style.box_Img}>
             <img className={style.img} src={photo}/>
             <div className={style.btns}>
-                <Button color="dark" url="//www.google.com.br">Linkedin</Button>
-                <Button color="light" url="//www.google.com.br" download>Currículo</Button>
+                <Button color="dark" url="//https://www.linkedin.com/in/rafael-pinto-3005a325a/">Linkedin</Button>
+                <Button color="light" onClick={handleClick} url="#">Currículo</Button>
             </div>
         </div>
         <div className={style.box_Text}>

@@ -1,11 +1,12 @@
 import React from 'react';
 import style from "./Header.module.scss";
 import { Link } from 'react-scroll';
-
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
   let [active, setActive] = React.useState(null);
   let [nav, setNav] = React.useState(null);
+  let navigate = useNavigate();
   
   let handleClick = ()=> {
     if(active == style.active){
@@ -20,7 +21,7 @@ const Header = () => {
     <>
       <div className='container'>
         <div className={style.header}>
-          <h2 className={style.logo}><a href=''>Rafa</a></h2>
+          <h2 className={style.logo} onClick={()=>navigate("/portfolio-redisign")}><a href=''>Rafa</a></h2>
             <nav className={`${style.nav} ${nav}`}>
             <ul className={style.menu}>
               <li className={style.item}><Link className={style.link} to='about' 

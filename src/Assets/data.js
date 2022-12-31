@@ -26,7 +26,7 @@ export const DATA_PROJECTS = ()=>{
                links: {
                    figma: "//www.figma.com/file/6kw87sdKXTbcHZjnXY0tM6/Kislev-Barbearia?node-id=122%3A331&t=AzNldGlkcaC0siij-1",
                    git: "//www.github.com/Rafa-py/Kislev",
-                   site: "//www.rafa-py.github.io/Kislev/"
+                   site: "//rafa-py.github.io/Kislev/"
                }
             },
             {
