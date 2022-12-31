@@ -6,6 +6,7 @@ import { Link } from 'react-scroll';
 const Header = () => {
   let [active, setActive] = React.useState(null);
   let [nav, setNav] = React.useState(null);
+  
   let handleClick = ()=> {
     if(active == style.active){
       setActive(null);
@@ -20,7 +21,7 @@ const Header = () => {
       <div className='container'>
         <div className={style.header}>
           <h2 className={style.logo}><a href=''>Rafa</a></h2>
-          <nav className={`${style.nav} ${nav}`}>
+            <nav className={`${style.nav} ${nav}`}>
             <ul className={style.menu}>
               <li className={style.item}><Link className={style.link} to='about' 
                   spy={true}
