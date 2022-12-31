@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio-redisign/static/css/main.4dd9e98f.css",
-    "main.js": "/portfolio-redisign/static/js/main.b1c6ab25.js",
+    "main.css": "/portfolio-redisign/static/css/main.f86a813b.css",
+    "main.js": "/portfolio-redisign/static/js/main.5edd6a71.js",
     "static/media/kislev.jpg": "/portfolio-redisign/static/media/kislev.fa5d4e2ca7184f757e3c.jpg",
     "static/media/dogs.jpg": "/portfolio-redisign/static/media/dogs.aef428d2b50c7d6a691d.jpg",
     "static/media/profile.jpg": "/portfolio-redisign/static/media/profile.d8551cdba07ed5f4c9d9.jpg",
+    "static/media/sass-icon.svg": "/portfolio-redisign/static/media/sass-icon.0fea1f43ff17da166cb41acc8ff0fe74.svg",
+    "static/media/react-icon.svg": "/portfolio-redisign/static/media/react-icon.b46bbc5a7d8c40d084ccbcaf7a0f8d9e.svg",
+    "static/media/wordpress-icon.svg": "/portfolio-redisign/static/media/wordpress-icon.3ca5182e81574c1c6df69eeebf933fb1.svg",
+    "static/media/js-icon.svg": "/portfolio-redisign/static/media/js-icon.f2526a2446663163373026028623291a.svg",
     "index.html": "/portfolio-redisign/index.html",
-    "main.4dd9e98f.css.map": "/portfolio-redisign/static/css/main.4dd9e98f.css.map",
-    "main.b1c6ab25.js.map": "/portfolio-redisign/static/js/main.b1c6ab25.js.map"
+    "static/media/tailwind-icon.svg": "/portfolio-redisign/static/media/tailwind-icon.5fe8edace89136bf819e99d5911f1246.svg",
+    "static/media/css-icon.svg": "/portfolio-redisign/static/media/css-icon.7823e43dcb59e3abed638118696986f3.svg",
+    "static/media/html.svg": "/portfolio-redisign/static/media/html.6a2622918b2e4a61642030896c4c6ef7.svg",
+    "main.f86a813b.css.map": "/portfolio-redisign/static/css/main.f86a813b.css.map",
+    "main.5edd6a71.js.map": "/portfolio-redisign/static/js/main.5edd6a71.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dd9e98f.css",
-    "static/js/main.b1c6ab25.js"
+    "static/css/main.f86a813b.css",
+    "static/js/main.5edd6a71.js"
   ]
 }
