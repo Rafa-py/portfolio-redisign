@@ -1,5 +1,6 @@
 import photoDog from "./dogs.jpg";
 import photoKislev from "./kislev.jpg";
+import photoOrca from "./photo-orca.jpg";
 
 export const DATA_PROJECTS = ()=>{
     return[
@@ -16,6 +17,18 @@ export const DATA_PROJECTS = ()=>{
                    site: false
                }
             },
+            {
+                name: "Orca Reguladora de Seguros",
+                type: "freelancer",
+                tech: ["wordpress", "sass",],
+                shortDescription: "Landing Page feita para marcar a presencial virtual da Barbearia Kislev",
+                largeDescription: "Ainda vou fazer",
+                photo: photoOrca,
+                links: {
+                    figma: "https://www.figma.com/file/TmMLqB0pp215sk6rkPBBBY/Orca-Reguladora-de-Sinistro?node-id=42%3A372&t=hDM49c8H4TJD9Pjh-1",
+                    site: "//orcareguladora.com.br/"
+                }
+             },
              {
                name: "Kislev",
                type: "freelancer",
@@ -26,19 +39,6 @@ export const DATA_PROJECTS = ()=>{
                links: {
                    figma: "//www.figma.com/file/6kw87sdKXTbcHZjnXY0tM6/Kislev-Barbearia?node-id=122%3A331&t=AzNldGlkcaC0siij-1",
                    git: "//www.github.com/Rafa-py/Kislev",
-                   site: "//rafa-py.github.io/Kislev/"
-               }
-            },
-            {
-               name: "Teste 1",
-               type: "freelancer",
-               tech: ["bootstrap", "sass",],
-               shortDescription: "Landing Page feita para marcar a presencial virtual da Barbearia Kislev",
-               largeDescription: "Ainda vou fazer",
-               photo: photoKislev,
-               links: {
-                   figma: "//www.figma.com/file/6kw87sdKXTbcHZjnXY0tM6/Kislev-Barbearia?node-id=122%3A331&t=AzNldGlkcaC0siij-1",
-                   git: "//github.com/Rafa-py/Kislev",
                    site: "//rafa-py.github.io/Kislev/"
                }
             },
