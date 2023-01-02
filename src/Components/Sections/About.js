@@ -16,7 +16,7 @@ const About = () => {
         <div className={style.box_Img}>
             <img className={style.img} src={photo}/>
             <div className={style.btns}>
-                <Button color="dark" url="//https://www.linkedin.com/in/rafael-pinto-3005a325a/">Linkedin</Button>
+                <Button color="dark" url="//www.linkedin.com/in/rafael-pinto-3005a325a/">Linkedin</Button>
                 <Button color="light" onClick={handleClick} url="#">Currículo</Button>
             </div>
         </div>
