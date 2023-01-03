@@ -12,7 +12,11 @@
         }
     }
 }
-
+@media(max-width: 800px){
+    .footer{
+        margin-top: 15px;
+    }
+}
 @media(max-width: 430px){
     .footer{
         flex-direction: column;

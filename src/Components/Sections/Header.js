@@ -17,6 +17,10 @@ const Header = () => {
       setNav(style.showNav);
     }
   }
+  let handleClickItem = ()=>{
+    setActive(null);
+    setNav(null);
+  }
   return (
     <>
       <div className='container'>
@@ -29,18 +33,21 @@ const Header = () => {
                   smooth={true}
                   offset={-100}
                   duration={500}
+                  onClick={handleClickItem}
                   >Sobre Mim</Link></li>
               <li className={style.item}><Link className={style.link} to='projects'
                   spy={true}
                   smooth={true}
                   offset={-100}
                   duration={500}
+                  onClick={handleClickItem}
                   >Projetos</Link></li>
               <li className={style.item}><Link className={style.link} to='knowledge'
                   spy={true}
                   smooth={true}
                   offset={-100}
                   duration={500}
+                  onClick={handleClickItem}
                   >Conhecimentos</Link></li>
             </ul>
           </nav>

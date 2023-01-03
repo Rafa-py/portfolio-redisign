@@ -46,10 +46,10 @@ export const DATA_PROJECTS = ()=>{
                 }
              },
             {
-                name: "Orca Reguladora de Seguros",
+                name: "Orca",
                 type: "freelancer",
                 tech: ["wordpress", "sass",],
-                shortDescription: "Landing Page feita para marcar a presencial virtual da Barbearia Kislev",
+                shortDescription: "Reguladora de Sinistro",
                 largeDescription: <div><b>A Orca</b> é uma empresa que regula sinistro e tem expertise em todos os ramos de seguros em âmbito nacional. Tem sua cede em São Paulo e mais de 1000 colaboradores pelo Brasil. 
                 <br/><br/>
                 <b>Eu e o Matheus Felix (Desenvolvedor Front End)</b> tivemos a oportunidade de inaugurar a presença da Orca na Web, com uma landing page moderna e com informações diretas sobre as áreas de atuação da empresa. 
