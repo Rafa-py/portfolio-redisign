@@ -33,8 +33,7 @@ export const DATA_PROJECTS = ()=>{
                  <br/><br/>
                  Conheci o <b>Vagner</b> ainda quando fazíamos ensino médio e foi um prazer inenarrável vê-lo construir o seu sonho: seu próprio negócio. Começando com uma barbearia improvisada na garagem dos pais e chegando a um salão profissional com uma clientela fiel. 
                  <br/><br/>
-                 Nesse projeto que marca a inauguração da presença digital da <b>Kislev,</b> atuei como <b>UI Designer e Desenvolvedor Front End.</b> Não ouso dizer que também fui fotógrafo porque infelizmente não tenho formação na área, mas as fotos que estão no site também foram tiradas por mim, com a ajuda e paciência infinita do Vagner para fazer e refazer poses enquanto eu procurava os melhores ângulos e iluminação. O projeto foi feito com o fígma para o design, HTML, SASS e javascript Vanilla para o front end. 
-                 O projeto foi feito com o <b>fígma</b> para o design, <b>HTML, SASS e javascript Vanilla</b> para o front end. 
+                 Nesse projeto que marca a inauguração da presença digital da <b>Kislev,</b> atuei como <b>UI Designer e Desenvolvedor Front End.</b> Não ouso dizer que também fui fotógrafo porque infelizmente não tenho formação na área, mas as fotos que estão no site também foram tiradas por mim, com a ajuda e paciência infinita do Vagner para fazer e refazer poses enquanto eu procurava os melhores ângulos e iluminação. O projeto foi feito com o <b>fígma</b> para o design, <b>HTML, SASS e Javascript Vanilla</b> para o front end. 
                  <br/><br/>
                  <p style={{color: "#F37678", fontWeight: "bold"}}>OBS: ainda estamos em processo de adquirir o domínio e a hospedagem. Portanto, o site está no disponível no github pages para testes. Confira a versão inicial! </p>
                 </div>,
