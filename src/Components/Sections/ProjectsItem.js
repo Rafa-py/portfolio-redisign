@@ -25,7 +25,7 @@ const ProjectsItem = () => {
     }
 
   return (
-    <div className={styles.projects}>
+    <div className={styles.projects}> 
         <Modal
         isOpen={modal}
         onRequestClose={()=>setModal(false)}

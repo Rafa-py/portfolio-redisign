@@ -63,11 +63,13 @@
             }
             &Text{
                 width: 80%;
+                text-align: center;
                 h4{
                     margin-bottom: 15px;
                 }
                 p{
                     text-align: justify;
+                    text-align: center;
                 }
             }
         }
@@ -76,6 +78,7 @@
 
 @media(max-width: 600px){
     .projects{
+        padding-top: 0px;
         .box{
             margin: 120px 0;
             &Img{

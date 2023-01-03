@@ -21,12 +21,9 @@ const About = () => {
             </div>
         </div>
         <div className={style.box_Text}>
-          <p>
-        Podemos dizer que acabei de chegar por aqui. Me formei em 2022 em <span>Tecnologia em Banco de Dados.</span> Minha primeira experiência profissional foi como estagiário de Front End na MZ Group. 
-        </p>
-        <p>
-        Essa experiência me deu uma certeza, que na faculdade era só uma hipótese. A certeza de que quero ajudar a moldar o futuro mundo em que viveremos a partir da tecnologia.   
-          </p>
+
+        <p><b style={{color: "#48C5C9"}}>Olá, eu sou Rafa!</b> <span>Formado em Banco de Dados,</span> mergulhando no <span>Front End</span> desde 2021, Karateca e professor de karatê nas horas vagas.</p> 
+<p>Meu interesse no Front veio da possibilidade de fazer coisas belas através do código. Um produto que resolve o problema do cliente e que tem uma paleta de cores que não agride o usuário, espaçamentos bem definidos, tipografia correta e animações sutis é bem mais capaz de apaixonar o cliente do que um produto cinza, sem beleza alguma mas que resolve o problema. Sinto ser a minha tarefa equilibrar o código limpo, seguro e funcional à um layout construído com atenção aos detalhes, unindo harmonicamente a forma e a função.</p>  
         </div>
       </div>
       

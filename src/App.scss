@@ -14,18 +14,30 @@
   right: 0;
   left: 0;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
 }
 .modal-content {
-  width: 90%;
-  height: 90%;
-  max-width: 1300px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  border: transparent;
+  border-radius: 8px;
   background-color: white;
-  padding: 10px;
-  border-radius: 5px;
-  border-color: transparent;
+  overflow: auto;
+  outline: none;
+  padding: 15px;
+  // margin: 5% 5% 0 5%;
+  // width: 90%;
+  // height: 90%;
+  // max-width: 1300px;
+  // background-color: white;
+  // padding: 10px;
+  // border-radius: 5px;
+  // border-color: transparent;
   .modal{
     .titleModal{
       text-align: center;
@@ -53,13 +65,15 @@
         .btnBox{
           display: flex;
           width: 100%;
-          justify-content: space-around;
+          justify-content: center;
+          gap: 1.5rem;
+          align-items: center;
         }
-        .boxDescription{
-          width: 50%;
-          .largeDescription{
-            padding-left: 25px;
-          }
+      }
+      .boxDescription{
+        width: 50%;
+        .largeDescription{
+          padding-left: 25px;
         }
       }
     }

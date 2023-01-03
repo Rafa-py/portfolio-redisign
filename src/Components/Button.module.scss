@@ -18,10 +18,18 @@
         color: white;
     }
 }
+@media(max-width: 1000px){
+    .div{
+        display: flex;
+        justify-content: center;
+    }
+}
 @media(max-width: 460px){
-    .btn{
-        margin-bottom: 10px;
-        max-width: 130px;
+    .div{
+        .btn{
+            margin-bottom: 10px;
+            max-width: 130px;
+        }
     }
 }
 .btn:hover,

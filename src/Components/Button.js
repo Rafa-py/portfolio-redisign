@@ -39,7 +39,7 @@ const Button = ({children,value, onClick, logo, url, ...props}) => {
     }
   })
   return (
-    <div>{ url &&
+    <div className={style.div}>{ url &&
       <button onClick={onClick} className={style.btn} style={{background: btnColor}}>
         {imgLogo && <img src={imgLogo}/>}
         {url && <Link to={url}>{children}</Link>}
