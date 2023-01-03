@@ -56,7 +56,7 @@ export const DATA_PROJECTS = ()=>{
                 Nesse projeto atuei apenas como UI Designer. O cliente já tinha uma logo e o laranja (EB7700) já fazia parte da identidade visual. Fiz alguns testes de layout e cheguei a três protótipos que harmonizavam com a logo (os três estão disponíveis no link do fígma). Desses protótipos o cliente optou pelo com o fundo roxo (1B1925), que está bastante presente no header, na seção Nossa Equipe e nos Contatos.</div>,
                 photo: photoOrca,
                 links: {
-                    figma: "https://www.figma.com/file/TmMLqB0pp215sk6rkPBBBY/Orca-Reguladora-de-Sinistro?node-id=42%3A372&t=hDM49c8H4TJD9Pjh-1",
+                    figma: "//www.figma.com/file/TmMLqB0pp215sk6rkPBBBY/Orca-Reguladora-de-Sinistro?node-id=42%3A372&t=hDM49c8H4TJD9Pjh-1",
                     site: "//orcareguladora.com.br/"
                 }
              },
